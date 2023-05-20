@@ -1,0 +1,107 @@
+body,
+html {
+ font-family: 'Rochester';
+ background-color: #f9e3e3;
+ height: 100%;
+ margin: 0px;
+}
+
+nav{
+  background-color: #AB6A6D;
+}
+
+.nav-link{
+  color: white;
+  font-size: 1.5rem;
+}
+
+.header{
+  padding-top: 5em;
+  background-color: #f9e3e3;
+}
+
+.header-image{
+  background-image: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(0, 0, 0, 0.8)), url('outdoor-wedding.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 400px;
+  padding-bottom: 400px;
+  width: 80%;
+  height: 100%;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #ab6a6d;
+  background-color: #f9e3e3;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.tagline{
+  color: white;
+  font-size: 3em;
+}
+
+.button1, .button2, .button3, .button4, .button5 {
+  color: #781212;
+  background-color: #AB6A6D;
+  border-radius: 50%;
+  padding-top: 1.5em;
+  padding-right: 1em;
+  padding-bottom: 1.5em;
+  padding-left: 1em;
+}
+
+.options-tagline{
+  color: #000000;
+}
+
+.options-tagline2{
+  color: #000000;
+  padding-top: 1em;
+}
+
+.options{
+  justify-items: center;
+  padding-top: 50px;
+  display: grid;
+  grid-template-rows: 1em 13em 20px;
+  grid-row-gap: 50px;
+  background-color: #f9e3e3;
+ }
+
+.options-buttons{
+  display: grid;
+  grid-template-columns:150px 150px 150px 150px 150px;
+  grid-template-rows: 275px;
+  grid-column-gap: 30px;
+}
+
+.button1{
+  display: grid;
+  align-self: start;
+}
+
+.button2{
+  align-self: center;
+}
+
+.button3{
+  align-self: end;
+}
+
+.button4{
+  align-self: center;
+}
+
+.button5{
+  display: grid;
+  align-self: start;
+}
+
+.subscription-link{
+  background-color: #f9e3e3;
+  padding-top: 6em;
+  padding-bottom: 10em;
+}
