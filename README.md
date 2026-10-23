@@ -6,11 +6,12 @@ A landing page for Vinland's Wedding Services, a fictional wedding-planning busi
 
 ## Features
 
-- **Branded header** with the business name in a decorative script font
+- **Branded header** with the business name in a decorative script font, paired with a clean, readable font for the rest of the page
 - **Navigation bar** with Home, Services, Pricing and Consultation links
-- **Hero section** with a full-width wedding photo, a dark gradient overlay and a tagline
+- **Hero section** with a large wedding photo, a dark gradient overlay and a tagline
 - **Service options** displayed as round, staggered buttons for Venues, Invitations, Registries, Dresses and Catering
-- **Call to action** with a Contact Us button
+- **Call to action** with a styled Contact Us button
+- **Responsive layout** that adapts to phones and tablets, switching the service buttons to a two-column grid on small screens
 
 ## Built With
 
@@ -22,8 +23,9 @@ A landing page for Vinland's Wedding Services, a fictional wedding-planning busi
 
 ## Concepts Demonstrated
 
-- Page structure with semantic HTML elements
+- Page structure in HTML5, including a navigation menu
 - Layout with CSS Grid (the staggered service buttons) and Flexbox (centering sections)
+- Responsive design with CSS media queries
 - Combining a framework (Bootstrap) with a custom stylesheet
 - Layered backgrounds using a CSS gradient over an image
 - Deploying a static site with GitHub Pages
@@ -34,6 +36,5 @@ Open the [live site](https://jonah-sanders.github.io/Startup-Landing-Page/), or 
 
 ## Planned Improvements
 
-- Make the layout fully responsive for phones and tablets
 - Link the navigation and buttons to real sections or pages
 - Add a contact form for consultation requests
