@@ -121,3 +121,7 @@ h1 {
 .subscription-link button:hover {
   background-color: #781212;
 }
+
+.nav-underline .nav-link.active {
+  color: white;
+}
