@@ -1,6 +1,6 @@
 body,
 html {
- font-family: 'Rochester';
+ font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
  background-color: #f9e3e3;
  height: 100%;
  margin: 0px;
@@ -31,6 +31,7 @@ nav{
 }
 
 h1 {
+  font-family: 'Rochester';
   font-size: 5rem;
   color: #ab6a6d;
   background-color: #f9e3e3;
